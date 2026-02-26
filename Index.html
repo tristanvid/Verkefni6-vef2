@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="is" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reykjavík Summer Fest</title>
+
+    <link rel="stylesheet" href="css/pico.sand.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <img src="images/logo.svg" alt="Logo" class="logo">
+    <h1>Reykjavík Summer Fest 2026</h1>
+    <p>Stærsti útitónlistarviðburður sumarsins</p>
+</header>
+
+<section>
+    <picture>
+        <source srcset="images/festival-large.png" media="(min-width: 1920px)">
+        <source srcset="images/festival-med.png" media="(min-width: 1280px)">
+        <source srcset="images/festival-small.png" media="(min-width: 768px)">
+        <img src="images/festival-med.png" alt="Festival mynd">
+    </picture>
+</section>
+
+<nav>
+
+    <div class="desktop-menu">
+        <a href="#um">Um viðburð</a>
+        <a href="#dagskra">Dagskrá</a>
+        <a href="#midar">Skráning</a>
+        <a href="#fyrirtaeki">Fyrirtæki</a>
+    </div>
+
+    <details class="mobile-menu">
+        <summary>Valmynd</summary>
+        <a href="#um">Um viðburð</a>
+        <a href="#dagskra">Dagskrá</a>
+        <a href="#midar">Skráning</a>
+        <a href="#fyrirtaeki">Fyrirtæki</a>
+    </details>
+
+</nav>
+
+<main>
+
+<section id="um">
+    <h2>Um viðburðinn</h2>
+    <p>
+        Reykjavík Summer Fest fer fram 15. júlí 2026 í Laugardalnum.
+        Þar koma fram vinsælustu tónlistarmenn landsins ásamt
+        alþjóðlegum gestum.
+    </p>
+</section>
+
+<section id="dagskra">
+    <h2>Dagskrá</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Tími</th>
+                <th>Listamaður</th>
+                <th>Svið</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>14:00</td>
+                <td>Artist A</td>
+                <td>Aðalsvið</td>
+            </tr>
+            <tr>
+                <td>16:00</td>
+                <td>Artist B</td>
+                <td>Aðalsvið</td>
+            </tr>
+            <tr>
+                <td>18:00</td>
+                <td>Artist C</td>
+                <td>Aðalsvið</td>
+            </tr>
+            <tr>
+                <td>21:00</td>
+                <td>Artist D</td>
+                <td>Aðalsvið</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="midar">
+    <h2>Kaupa miða</h2>
+
+    <form>
+        <label for="name">Nafn:</label>
+        <input type="text" id="name" required placeholder="Nafn">
+
+        <label for="email">Netfang:</label>
+        <input type="email" id="email" required placeholder="Netfang">
+
+        <label for="ticket">Tegund miða:</label>
+        <select id="ticket">
+            <option>Almennur miði</option>
+            <option>VIP miði</option>
+        </select>
+
+        <input type="submit" value="Panta miða">
+    </form>
+</section>
+
+<section id="leikur">
+    <h2>Leikur</h2>
+    <p>
+        Skráðu þig í leik og átt möguleika á að vinna VIP miða!
+    </p>
+
+    <form>
+        <label for="leikur-email">Netfang:</label>
+        <input type="email" id="leikur-email" placeholder="Netfang">
+        <input type="submit" value="Taka þátt">
+    </form>
+</section>
+
+<section id="samskipti">
+    <h2>Samskiptaform</h2>
+
+    <form>
+        <label for="msg-name">Nafn:</label>
+        <input type="text" id="msg-name" placeholder="Nafn">
+
+        <label for="msg">Skilaboð:</label>
+        <textarea id="msg"></textarea>
+
+        <input type="submit" value="Senda skilaboð">
+    </form>
+</section>
+
+<section id="fyrirtaeki">
+    <h2>Um skipuleggjanda</h2>
+    <p>
+        Summer Events ehf. er íslenskt fyrirtæki sem sérhæfir sig í
+        skipulagningu tónlistarviðburða og menningarhátíða.
+    </p>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Reykjavík Summer Fest</p>
+</footer>
+
+</body>
+</html> 
